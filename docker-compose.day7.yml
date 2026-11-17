@@ -1,0 +1,19 @@
+# Optional fresh-machine restore. Original Day 6 remains on port 55433.
+services:
+  postgres:
+    image: pgvector/pgvector:0.8.7-pg16
+    environment:
+      POSTGRES_DB: day7_lab
+      POSTGRES_USER: day7
+      POSTGRES_PASSWORD: day7_local_only
+    ports:
+      - "127.0.0.1:55434:5432"
+    volumes:
+      - day7_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U day7 -d day7_lab"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+volumes:
+  day7_pg_data:

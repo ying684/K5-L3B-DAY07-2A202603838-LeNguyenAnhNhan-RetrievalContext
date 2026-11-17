@@ -1,0 +1,358 @@
+[
+  {
+    "id": "bt01",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Original PDF47 table2.1 third data row contains (A+A^T)x and (A+A^T)X. Both gradients given without assuming symmetry; named table citation covers exact row.",
+    "source_pages_checked": [
+      47
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt02",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Original PDF142 table11.1 rowd4: saigon/hutiu/banhbo/pho, classN; rowd5 repeats hanoi twice. Answer and table locator fully supported.",
+    "source_pages_checked": [
+      142
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt03",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed original PDF177 table14.1:1.75 appears twice with Pass0 and1;4 appears with Pass0 and1. Answer includes non-uniqueness for both, correct named table citation.",
+    "source_pages_checked": [
+      177
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt04",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed original PDF315 table24.1: inequality constraint/bat dang thuc rang buoc for fi<=0, equality constraint/dang thuc rang buoc for hj=0. Correct two rows, bilingual answer and table locator.",
+    "source_pages_checked": [
+      315
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt05",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed original PDF367 table28.1 last two rows: softmax/multiclass SVM with hyperplane boundaries; MLP/kernel SVM for non-linearly-separable boundary. Answer follows both rows and names the correct table.",
+    "source_pages_checked": [
+      367
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt06",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed original PDF99 table7.1 right-hand first two rows:168cm/60kg and170cm/72kg. Correct difference12kg; did not replace72 with code-array62.",
+    "source_pages_checked": [
+      99
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt07",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed actual Figure19.1 blocks: Y MxN, X^T MxK item features, W KxN user features. All answer dimensions/roles match the diagram. Caption itself inconsistently names X; answer correctly follows the explicitly requested blocks, not that typo.",
+    "source_pages_checked": [
+      249
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt08",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed original Figure21.4 p272: step4 computes eigenvalues/eigenvectors of covariance S, step5 picksK highest, step6 projects data. Before/after and citation correct.",
+    "source_pages_checked": [
+      272
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt09",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed original Figure27.2 p353 and its caption: x2 correctly classified inside margin,0<xi2<1; x1/x3 wrong side,xi>1. Answer explicitly preserves this distinction and cites exact figure.",
+    "source_pages_checked": [
+      353
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt10",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed original Figure28.1 p368 panels/legend: added z=x^2+y^2 and projected boundary ellipse. Correct formula, shape and figure locator.",
+    "source_pages_checked": [
+      368
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt11",
+    "passed": false,
+    "answer_correct_complete": false,
+    "citation_support": false,
+    "rationale": "Provider network/timeout error, no final answer. Original Figure29.3 p380 would support cat285.3/frog-154.5/dog248.8 and gap36.5, but no model result may be substituted. Failure retained in full denominator30.",
+    "source_pages_checked": [
+      380
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt12",
+    "passed": false,
+    "answer_correct_complete": false,
+    "citation_support": false,
+    "rationale": "Viewed original Figure15.3 p195: requested outer output bars .333/.333/.333 and .486/.486/.027 are copied correctly, but answer changes right input z3 from printed1 to0.1. Unsupported extra numeric claim violates all-claims/conditions criterion; correct page ID alone is insufficient.",
+    "source_pages_checked": [
+      195
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt13",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed original PDF211 Figure16.6b plus ReLU paragraph: x=Epochs,y=Training error rate; solid ReLU reaches.25 near6-7 and dashed tanh near35-36. Estimates within predeclared reading tolerance; repeated identical citations are redundant but correct.",
+    "source_pages_checked": [
+      211
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt14",
+    "passed": false,
+    "answer_correct_complete": false,
+    "citation_support": false,
+    "rationale": "Provider network/timeout error; no final answer. Original Figure29.6 p388 was visually checked (iterations/loss,roughly9 to4.5-5,fluctuating) but reviewer cannot substitute source facts for missing model output. Counts fail/30.",
+    "source_pages_checked": [
+      388
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt15",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed Figure3.3a p61: red curve highest/narrowest, label mu=.5 and variance=.5, peak atx=.5. All three requested observations and panel locator correct.",
+    "source_pages_checked": [
+      61
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt16",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed Figure22.2 p282: c has distant means and narrow distributions with minimal overlap; a has large variances, b has nearby means. Answer explains all requested comparisons and cites the right figure.",
+    "source_pages_checked": [
+      282
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt17",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed PDF11 table0.1 pseudoinverse row A-dagger and PDF99 section7.3.3 explicit numpy.linalg.pinv(A). Correctly combines two distinct pages with both citations.",
+    "source_pages_checked": [
+      11,
+      99
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt18",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed PDF6 section0.4 numpy multi-dimensional arrays and PDF118 1NN code KNeighborsClassifier(n_neighbors=1,p=2), with l2 interpretation in adjacent prose. Both source pages cited; full answer supported.",
+    "source_pages_checked": [
+      6,
+      118
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt19",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed PDF264 Figure20.3 caption: grayscale960x1440. Viewed PDF276 code accompanying Figure21.5: ids range1..15 and11 listed states, all names copied correctly. Two cited pages support requested counts and extra list.",
+    "source_pages_checked": [
+      264,
+      275,
+      276
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt20",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed original PDF373 Figure28.2 plus bullets: RBF symmetric regions are preferred, sigmoid sensitive and poly overfitting. PDF372 equation28.13/table28.2 support exp(-gamma||x-z||_2^2),gamma>0,kernel=rbf,param gamma. All claims and both-page citations correct.",
+    "source_pages_checked": [
+      372,
+      373
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt21",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed original PDF286 within-class squared-distance/trace definition22.17 and PDF287 between-class22.20/objective22.22. Correct between/within trace ratio maximized, within small/between large; extra definitions supported by both cited pages.",
+    "source_pages_checked": [
+      286,
+      287
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt22",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed original PDF133 section10.5 paragraphs2-3: pink scarf/lips, black eyes/hair/background, skin; RGB3-vector, each natural value<=255. All requested explanations and locator match.",
+    "source_pages_checked": [
+      133
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt23",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Viewed original PDF273 section21.3.3 final paragraph: samples are columns and each row mean0. Answer states both required centering/layout conditions and exact section locator.",
+    "source_pages_checked": [
+      273
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt24",
+    "passed": false,
+    "answer_correct_complete": false,
+    "citation_support": false,
+    "rationale": "Guard failure: answered finish without opened source/citations. Original PDF235 comments support one-based data IDs vs zero-based Python, but reviewer cannot insert that as model output. Failure remains /30.",
+    "source_pages_checked": [
+      235
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt25",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Correct explicit abstain:2018 edition cannot report November2026 sklearn release. Publication/date/library section plus full native-text2026 search support absence; no guessed version.",
+    "source_pages_checked": [
+      1,
+      2,
+      6,
+      9
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt26",
+    "passed": false,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Prose correctly states CPU model and fit milliseconds absent; original Iris code/results contain no timing/hardware measurement, corpus CPU term scan empty. Strict predeclared status contract fails answered rather than abstain; not relabeled after test.",
+    "source_pages_checked": [
+      117,
+      118,
+      119,
+      120
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt27",
+    "passed": false,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Prose correctly states camera/lens absent and caption only credits Trong Vu/link. PDF133 embedded image EXIF has no fields; lone camera term p266 is unrelated PCA analogy. Strict predeclared answered/abstain status mismatch still fails.",
+    "source_pages_checked": [
+      133,
+      266
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt28",
+    "passed": false,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Prose correctly states writer identities absent; original MNIST section has dataset/code/random split and errors, no writer mapping. Strict predeclared status answered instead of abstain remains fail.",
+    "source_pages_checked": [
+      186,
+      187,
+      188
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt29",
+    "passed": false,
+    "answer_correct_complete": false,
+    "citation_support": false,
+    "rationale": "Tool guard rejects four pages in one call (max3). Total unique pages would fit global budget but request violates per-call contract; no final result. Yale section and corpus checksum scan checked; cannot replace error with correct absence.",
+    "source_pages_checked": [
+      275,
+      276,
+      277,
+      278
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bt30",
+    "passed": false,
+    "answer_correct_complete": false,
+    "citation_support": false,
+    "rationale": "Tool guard rejects read_pages with11 pages, exceeding per-call3/global9. No final answer; not converted to abstain. Book SVM chapters/API-cost term scan support absence only for grading; error remains fail.",
+    "source_pages_checked": [
+      340,
+      353,
+      366,
+      367,
+      368,
+      372,
+      373,
+      380,
+      388
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  }
+]

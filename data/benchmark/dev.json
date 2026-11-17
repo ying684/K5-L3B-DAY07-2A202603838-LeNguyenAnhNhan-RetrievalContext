@@ -1,0 +1,247 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "question": "Trong ví dụ dự đoán tuổi từ khuôn mặt, điều kiện nào cho phép coi tuổi là bài toán classification và khi đó có bao nhiêu lớp?",
+    "answerable": true,
+    "expected_answer": "Nếu tuổi là số nguyên dương không lớn hơn 150, có thể coi là classification với 150 lớp.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 78,
+        "evidence": "phần dự đoán tuổi cũng có thể coi là classification nếu ta coi tuổi là một số nguyên dương không lớn hơn 150, chúng ta sẽ có 150 class (lớp) khác nhau."
+      }
+    ]
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "question": "Completion giải quyết việc gì và sách nêu loại hệ thống nào là ví dụ điển hình?",
+    "answerable": true,
+    "expected_answer": "Điền giá trị còn thiếu dựa trên tương quan giữa dữ liệu; hệ thống khuyến nghị là ví dụ điển hình.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 78,
+        "evidence": "Nhiệm vụ của bài toán này là dựa trên mối tương quan giữa các điểm dữ liệu để dự đoán những giá trị còn thiếu.Các hệ thống khuyến nghị(recommendation system) là một ví dụ điển hình của loại này."
+      }
+    ]
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "question": "Offline learning xây dựng mô hình bao nhiêu lần trên tập huấn luyện theo cách mô tả trong sách?",
+    "answerable": true,
+    "expected_answer": "Xây dựng mô hình một lần dựa trên tập huấn luyện.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 79,
+        "evidence": "offline learning, ở đó hệ thống xây dựng mô hìnhmột lần dựa trên một tập chính là tập huấn luyện."
+      }
+    ]
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "question": "Khi có nhiều dữ liệu X nhưng chỉ một phần được gán nhãn, sách gọi kiểu học này là gì?",
+    "answerable": true,
+    "expected_answer": "Học bán giám sát, semi-supervised learning.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 80,
+        "evidence": "Các bài toán khi chúng ta có một lượng lớn dữ liệuX nhưng chỉ một phần trong chúng được gán nhãn được gọi làhọc bán giám sát, haysemi-supervised learning."
+      }
+    ]
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "question": "AlphaGo Zero có bắt buộc học từ các ván cờ của con người không và nó tìm chiến thuật bằng cách nào?",
+    "answerable": true,
+    "expected_answer": "Không cần học ván cờ của con người; tự chơi với chính mình để tìm chiến thuật tối ưu.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 81,
+        "evidence": "Hệ thống này thậm chí không cần học từ các ván cờ của con người. Nó có thể tự chơi với chính mình để tìm ra các chiến thuật tối ưu."
+      }
+    ]
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "question": "Ký hiệu argmin theo theta trong tối ưu hàm mất mát có ý nghĩa gì?",
+    "answerable": true,
+    "expected_answer": "Là giá trị của tham số theta làm hàm mất mát L(theta) đạt giá trị nhỏ nhất.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 82,
+        "evidence": "ký hiệu argmin θ L(θ) được hiểu là giá trị củaθ để hàm sốL(θ) đạt giá trị nhỏ nhất."
+      }
+    ]
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "question": "Trước khi nhận dạng khuôn mặt, bước object detection cần làm gì với các khuôn mặt trong ảnh?",
+    "answerable": true,
+    "expected_answer": "Tìm vị trí các khuôn mặt và cắt chúng ra trước các bước tiếp theo.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 83,
+        "evidence": "trong bài toán nhận dạng khuôn mặt, ta cần tìm được vị trí các khuôn mặt trong ảnh và cắt ra các khuôn mặt đó trước khi làm các bước tiếp theo."
+      }
+    ]
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "question": "Ảnh màu 1000 x 1000 dùng ba kênh RGB tạo ra bao nhiêu giá trị pixel khi coi mỗi kênh là một thành phần dữ liệu thô?",
+    "answerable": true,
+    "expected_answer": "3 x 10^6, tức 3 triệu giá trị ở ba kênh đỏ, lục, lam.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 84,
+        "evidence": "một bức ảnh màu1000× 1000 pixel sẽ có số pixel là đã là3× 106 (ảnh màu thường có ba channel: red, green, blue–RGB)."
+      }
+    ]
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "question": "Vì sao lựa chọn ma trận chiếu ngẫu nhiên để giảm chiều đôi khi cho kết quả tệ?",
+    "answerable": true,
+    "expected_answer": "Vì có thể làm mất quá nhiều thông tin.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 87,
+        "evidence": "Việc chọn một ma trận chiếu ngẫu nhiên đôi khi mang lại kết quả tệ không mong muốn vì thông tin có thể bị mất đi quá nhiều."
+      }
+    ]
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "question": "Để lưu vector thưa BoW hiệu quả, cần lưu những gì thay vì toàn bộ vector?",
+    "answerable": true,
+    "expected_answer": "Chỉ lưu vị trí các phần tử khác 0 và giá trị tương ứng.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 88,
+        "evidence": "Để việc lưu trữ được hiệu quả hơn, ta không lưu cả vector đó mà chỉ lưuvị trí của các phần tử khác 0 vàgiá trị tương ứng."
+      }
+    ]
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "question": "Trong BoW cho ảnh, tiêu chí ngắn gọn nào khiến hai patch được coi là gần giống nhau?",
+    "answerable": true,
+    "expected_answer": "Khoảng cách Euclid giữa hai vector tạo bởi hai patch nhỏ.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 90,
+        "evidence": "hai patch được coi là gần giống nhau nếu khoảng cách Euclid giữa hai vector tạo bởi hai patch đó là nhỏ."
+      }
+    ]
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "question": "Bộ dữ liệu ImageNet được giới thiệu với khoảng bao nhiêu ảnh và bao nhiêu class?",
+    "answerable": true,
+    "expected_answer": "1,2 triệu ảnh và 1000 class.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 92,
+        "evidence": "Bộ cơ sở dữ liệu thường được dùng nhất là ImageNet (https://www.image-net.org ) 1.2 triệu ảnh cho 1000 class khác nhau."
+      }
+    ]
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "question": "Khi huấn luyện tiếp một network đã có, sách khuyên chọn learning rate như thế nào và vì sao?",
+    "answerable": true,
+    "expected_answer": "Chọn learning rate nhỏ để hệ số mới không đi quá xa hệ số đã được huấn luyện.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 93,
+        "evidence": "khi tiếp tục huấn luyện các network này, ta chỉ nên chọn learning ratenhỏ để các hệ số mới không đi quá xa so với các hệ số đã được huấn luyện ở các mô hình trước."
+      }
+    ]
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "question": "Trong ví dụ hồi quy giá nhà, ba thông số đầu vào của căn nhà mới là gì?",
+    "answerable": true,
+    "expected_answer": "Diện tích, số phòng ngủ và khoảng cách tới trung tâm.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 95,
+        "evidence": "các thông số về diện tíchx1, số phòng ngủx2 và khoảng cách tới trung tâmx3"
+      }
+    ]
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "question": "Trong neural network, L2 regularization còn được gọi bằng tên nào?",
+    "answerable": true,
+    "expected_answer": "Weight decay.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 109,
+        "evidence": "Trong neural network, việc sử dụng𝓁2 regularization còn được gọi làweight decay"
+      }
+    ]
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "question": "Tài liệu quy định chính xác learning rate bằng số nào để fine-tune ResNet trên bộ ảnh mới nhỏ?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Phần fine-tuning chỉ khuyên learning rate nhỏ, không cho một giá trị số cụ thể cho tình huống này trong corpus 32 trang.",
+    "absence_check": {
+      "scope": "all 32 indexed physical pages 78-109",
+      "terms_checked": [
+        "learning rate",
+        "ResNet",
+        "fine-tuning"
+      ],
+      "method": "full normalized text search and source-section inspection"
+    }
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "question": "Accuracy của BERT-base trên bộ tin nhắn rác tiếng Việt trong tài liệu là bao nhiêu phần trăm?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus có ví dụ tin nhắn rác/BoW nhưng không có BERT-base hoặc thí nghiệm accuracy tiếng Việt được hỏi.",
+    "absence_check": {
+      "scope": "all 32 indexed physical pages 78-109",
+      "terms_checked": [
+        "BERT",
+        "BERT-base",
+        "accuracy",
+        "tin nhắn"
+      ],
+      "method": "full normalized text search and source-section inspection"
+    }
+  }
+]

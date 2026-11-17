@@ -1,0 +1,122 @@
+[
+  {
+    "id": "bt01",
+    "question": "Tra Bảng 2.1: gradient theo x của xᵀAx và gradient theo X của trace(XᵀAX) là gì?"
+  },
+  {
+    "id": "bt02",
+    "question": "Trong Bảng 11.1, d4 chứa những từ nào và thuộc lớp nào; từ hanoi xuất hiện mấy lần trong d5?"
+  },
+  {
+    "id": "bt03",
+    "question": "Bảng 14.1 cho những kết quả Pass nào ở Hours=1.75 và Hours=4? Mỗi mức giờ đó có cho duy nhất một kết quả thi không?"
+  },
+  {
+    "id": "bt04",
+    "question": "Trong Bảng 24.1, fi(x)≤0 và hj(x)=0 được gọi là gì bằng tiếng Anh và tiếng Việt?"
+  },
+  {
+    "id": "bt05",
+    "question": "Theo Bảng 28.1, softmax regression và multi-layer perceptron tương ứng với loại SVM nào và tính chất chung nào?"
+  },
+  {
+    "id": "bt06",
+    "question": "Chỉ theo các ô Bảng 7.1 (không thay bằng mảng Python bên dưới), người cao 168 cm và 170 cm nặng bao nhiêu, chênh bao nhiêu kg?"
+  },
+  {
+    "id": "bt07",
+    "question": "Trong các khối của Hình 19.1, Y, Xᵀ và W có kích thước nào; khối nào là item features và khối nào là user features?"
+  },
+  {
+    "id": "bt08",
+    "question": "Trong sơ đồ PCA Hình 21.4, bước ngay trước và ngay sau Pick K eigenvectors/highest eigenvalues là gì?"
+  },
+  {
+    "id": "bt09",
+    "question": "Trong Hình 27.2, điểm nào trong x1,x2,x3 ở đúng phía phân lớp nhưng vi phạm margin, và khoảng slack của nó khác hai điểm còn lại thế nào?"
+  },
+  {
+    "id": "bt10",
+    "question": "Theo Hình 28.1, chiều thứ ba được thêm bằng công thức nào và đường ranh giới thu được khi chiếu về mặt phẳng ban đầu có dạng gì?"
+  },
+  {
+    "id": "bt11",
+    "question": "Theo luồng ảnh→score trong Hình 29.3, ảnh được gán nhãn nào, ba score là bao nhiêu, và score thắng hơn á quân bao nhiêu?"
+  },
+  {
+    "id": "bt12",
+    "question": "Đọc hai nhóm ngoài cùng của biểu đồ Hình 15.3: nhóm trái có z=(2,2,2) cho a nào; nhóm phải có z1=z2=3,z3=1 cho a nào? Dùng số ghi trên cột."
+  },
+  {
+    "id": "bt13",
+    "question": "Đọc Hình 16.6b cùng đoạn mô tả ReLU: hai trục biểu diễn gì, đường liền/nét đứt ứng với hàm nào, và mỗi đường đạt mức 0.25 sau xấp xỉ bao nhiêu epoch?"
+  },
+  {
+    "id": "bt14",
+    "question": "Trong Hình 29.6, hai trục biểu diễn gì và loss thay đổi xấp xỉ từ mức nào lúc đầu đến mức nào gần iteration2500; đường có hoàn toàn đơn điệu không?"
+  },
+  {
+    "id": "bt15",
+    "question": "Trong Hình 3.3a, đường màu nào cao và hẹp nhất, nhãn μ và σ² của nó là gì; đỉnh nằm gần giá trị x nào?"
+  },
+  {
+    "id": "bt16",
+    "question": "So sánh ba panel Hình 22.2: panel nào vừa có khoảng cách hai kỳ vọng lớn vừa có phương sai nhỏ, và vì sao tách hai lớp tốt hơn hai panel còn lại?"
+  },
+  {
+    "id": "bt17",
+    "question": "Đối chiếu Bảng 0.1 với mục 7.3.3: sách ký hiệu giả nghịch đảo bằng ký hiệu nào và gọi hàm numpy nào để tính nó?"
+  },
+  {
+    "id": "bt18",
+    "question": "Kết hợp phần Yêu cầu kiến thức và ví dụ 1NN trên Iris: thư viện nào dùng tính toán mảng nhiều chiều, và ví dụ 1NN dùng thư viện/lớp nào với K và p bằng bao nhiêu?"
+  },
+  {
+    "id": "bt19",
+    "question": "Đối chiếu ví dụ SVD Hình 20.3 và ví dụ Yale Face Database ở Hình 21.5/code đi kèm: ảnh gốc SVD là loại gì, kích thước bao nhiêu; Yale dùng bao nhiêu người và bao nhiêu trạng thái mỗi người?"
+  },
+  {
+    "id": "bt20",
+    "question": "Từ kết quả XOR ở Hình 28.2 và Bảng 28.2, kernel nào được sách đánh giá hợp lý nhất, vì sao về hình học, và công thức cùng tên tham số sklearn của nó là gì?"
+  },
+  {
+    "id": "bt21",
+    "question": "Theo mục 22.3.2, multi-class LDA tối đa hóa tỷ số trace nào, với ý nghĩa within-class và between-class ra sao?"
+  },
+  {
+    "id": "bt22",
+    "question": "Trong mục 10.5 về tách khuôn mặt, vì sao sách chọn K=3 và mỗi pixel được biểu diễn bằng vector như thế nào?"
+  },
+  {
+    "id": "bt23",
+    "question": "Theo mục 21.3.3, điều kiện nào về cách đặt điểm dữ liệu và trung bình cho phép rút nghiệm PCA trực tiếp từ truncated SVD?"
+  },
+  {
+    "id": "bt24",
+    "question": "Trong code get_items_rated_by_user của ví dụ content-based recommendation, vì sao so sánh user_id+1 và trừ1 khỏi item_id?"
+  },
+  {
+    "id": "bt25",
+    "question": "Phiên bản scikit-learn mới nhất phát hành trong tháng 11/2026 theo sách là số mấy?"
+  },
+  {
+    "id": "bt26",
+    "question": "Trong thí nghiệm Iris 7NN, chạy model.fit mất chính xác bao nhiêu mili giây và CPU cụ thể nào được sử dụng?"
+  },
+  {
+    "id": "bt27",
+    "question": "Ảnh cô gái ở Hình 10.7 được chụp bằng hãng máy ảnh, model máy và ống kính nào?"
+  },
+  {
+    "id": "bt28",
+    "question": "Danh tính thật của người đã viết từng ảnh chữ số 0 và 1 được lấy làm test MNIST ở mục 14.5 là gì?"
+  },
+  {
+    "id": "bt29",
+    "question": "Bản sách cung cấp SHA-256 nào cho tập Yale Face Database mà code PCA đã tải?"
+  },
+  {
+    "id": "bt30",
+    "question": "Ví dụ SVM trong sách đã tiêu tốn chính xác bao nhiêu USD tiền API OpenRouter để tìm siêu tham số?"
+  }
+]

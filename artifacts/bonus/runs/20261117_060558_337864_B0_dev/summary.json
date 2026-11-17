@@ -1,0 +1,53 @@
+{
+  "split": "dev",
+  "config_id": "B0",
+  "passed": 14,
+  "N": 18,
+  "rate": 0.7777777777777778,
+  "at_least_90_percent": false,
+  "groups": {
+    "table": {
+      "passed": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "diagram": {
+      "passed": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "chart": {
+      "passed": 2,
+      "N": 3,
+      "rate": 0.6666666666666666
+    },
+    "multi_hop": {
+      "passed": 1,
+      "N": 3,
+      "rate": 0.3333333333333333
+    },
+    "text": {
+      "passed": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "unanswerable": {
+      "passed": 2,
+      "N": 3,
+      "rate": 0.6666666666666666
+    }
+  },
+  "errors_or_missing": 3,
+  "known_cost_usd": 0,
+  "final_errors_or_missing": 3,
+  "provider_error_cases": 2,
+  "failed_request_attempts": 2,
+  "recovered_error_cases_still_scored_fail": 0,
+  "unknown_cost_records": 67,
+  "total_cost_usd": null,
+  "sum_case_seconds": 487.4032,
+  "median_case_seconds": 21.5517,
+  "model_requests": 67,
+  "reviewer": "Codex source comparison, not independent human audit",
+  "gold_path": "data/bonus/benchmark/dev_gold.json"
+}

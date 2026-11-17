@@ -1,0 +1,652 @@
+{
+  "selection": "H0",
+  "dev": {
+    "D0": {
+      "run": "results/runs/20261117_031614_888409_D0_dev_agent",
+      "config_id": "D0",
+      "split": "dev",
+      "agent": {
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 9,
+          "1": 2,
+          "2": 4,
+          "N": 15,
+          "mean": 0.6666666666666666
+        },
+        "citation_validity": {
+          "n": 7,
+          "N": 9
+        },
+        "answer_citation_coverage": {
+          "n": 7,
+          "N": 7
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 8,
+          "N": 15
+        },
+        "completion": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "context_grades": {
+          "0": 2,
+          "1": 2,
+          "2": 11,
+          "N": 15
+        },
+        "search_call_distribution": {
+          "1": 11,
+          "2": 6
+        }
+      },
+      "retrieval_context": {
+        "cases": 17,
+        "answerable": 15,
+        "errors": 0,
+        "completion": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "hit1": {
+          "n": 10,
+          "N": 15,
+          "rate": 0.6666666666666666
+        },
+        "hit3": {
+          "n": 13,
+          "N": 15,
+          "rate": 0.8666666666666667
+        },
+        "context_evidence": {
+          "n": 11,
+          "N": 15,
+          "rate": 0.7333333333333333
+        },
+        "context_metric": "source/page/exact alternative evidence in selected chunk; semantic review separate",
+        "elapsed_ms_total": 143805.07549992763,
+        "elapsed_ms_median": 5391.186099994229
+      },
+      "usage": {
+        "model_requests": 40,
+        "embedding_requests": 23,
+        "embedding_cache_hits": 17,
+        "known_service_cost_usd": 0.01627366,
+        "cost_records_unknown": 0,
+        "failed_cases_cost_not_assumed_zero": 0,
+        "total_cost_usd": 0.01627366,
+        "prompt_tokens": 30121,
+        "completion_tokens": 2639,
+        "note": "all requests in run, including original-query evaluation; unknown costs are not zero"
+      },
+      "median_agent_ms": 5391.186099994229
+    },
+    "L0": {
+      "run": "results/runs/20261117_031839_292335_L0_dev_agent",
+      "config_id": "L0",
+      "split": "dev",
+      "agent": {
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 9,
+          "1": 2,
+          "2": 4,
+          "N": 15,
+          "mean": 0.6666666666666666
+        },
+        "citation_validity": {
+          "n": 4,
+          "N": 6
+        },
+        "answer_citation_coverage": {
+          "n": 6,
+          "N": 6
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 9,
+          "N": 15
+        },
+        "completion": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "context_grades": {
+          "0": 0,
+          "1": 2,
+          "2": 13,
+          "N": 15
+        },
+        "search_call_distribution": {
+          "1": 14,
+          "2": 3
+        }
+      },
+      "retrieval_context": {
+        "cases": 17,
+        "answerable": 15,
+        "errors": 0,
+        "completion": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "hit1": {
+          "n": 12,
+          "N": 15,
+          "rate": 0.8
+        },
+        "hit3": {
+          "n": 13,
+          "N": 15,
+          "rate": 0.8666666666666667
+        },
+        "context_evidence": {
+          "n": 12,
+          "N": 15,
+          "rate": 0.8
+        },
+        "context_metric": "source/page/exact alternative evidence in selected chunk; semantic review separate",
+        "elapsed_ms_total": 65349.97609996935,
+        "elapsed_ms_median": 3588.734299992211
+      },
+      "usage": {
+        "model_requests": 37,
+        "embedding_requests": 0,
+        "embedding_cache_hits": 0,
+        "known_service_cost_usd": 0.0141964,
+        "cost_records_unknown": 0,
+        "failed_cases_cost_not_assumed_zero": 0,
+        "total_cost_usd": 0.0141964,
+        "prompt_tokens": 26079,
+        "completion_tokens": 2353,
+        "note": "all requests in run, including original-query evaluation; unknown costs are not zero"
+      },
+      "median_agent_ms": 3588.734299992211
+    },
+    "H0": {
+      "run": "results/runs/20261117_031944_717472_H0_dev_agent",
+      "config_id": "H0",
+      "split": "dev",
+      "agent": {
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 6,
+          "1": 3,
+          "2": 6,
+          "N": 15,
+          "mean": 1.0
+        },
+        "citation_validity": {
+          "n": 6,
+          "N": 9
+        },
+        "answer_citation_coverage": {
+          "n": 9,
+          "N": 9
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 6,
+          "N": 15
+        },
+        "completion": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "context_grades": {
+          "0": 0,
+          "1": 1,
+          "2": 14,
+          "N": 15
+        },
+        "search_call_distribution": {
+          "1": 14,
+          "2": 3
+        }
+      },
+      "retrieval_context": {
+        "cases": 17,
+        "answerable": 15,
+        "errors": 0,
+        "completion": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "hit1": {
+          "n": 10,
+          "N": 15,
+          "rate": 0.6666666666666666
+        },
+        "hit3": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "context_evidence": {
+          "n": 13,
+          "N": 15,
+          "rate": 0.8666666666666667
+        },
+        "context_metric": "source/page/exact alternative evidence in selected chunk; semantic review separate",
+        "elapsed_ms_total": 78577.34410002013,
+        "elapsed_ms_median": 4335.858000005828
+      },
+      "usage": {
+        "model_requests": 37,
+        "embedding_requests": 6,
+        "embedding_cache_hits": 31,
+        "known_service_cost_usd": 0.01402202,
+        "cost_records_unknown": 0,
+        "failed_cases_cost_not_assumed_zero": 0,
+        "total_cost_usd": 0.01402202,
+        "prompt_tokens": 26813,
+        "completion_tokens": 2444,
+        "note": "all requests in run, including original-query evaluation; unknown costs are not zero"
+      },
+      "median_agent_ms": 4335.858000005828
+    },
+    "H1": {
+      "run": "results/runs/20261117_032103_819895_H1_dev_agent",
+      "config_id": "H1",
+      "split": "dev",
+      "agent": {
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 10,
+          "1": 3,
+          "2": 2,
+          "N": 15,
+          "mean": 0.4666666666666667
+        },
+        "citation_validity": {
+          "n": 5,
+          "N": 7
+        },
+        "answer_citation_coverage": {
+          "n": 5,
+          "N": 5
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 10,
+          "N": 15
+        },
+        "completion": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "context_grades": {
+          "0": 0,
+          "1": 1,
+          "2": 14,
+          "N": 15
+        },
+        "search_call_distribution": {
+          "1": 15,
+          "2": 2
+        }
+      },
+      "retrieval_context": {
+        "cases": 17,
+        "answerable": 15,
+        "errors": 0,
+        "completion": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "hit1": {
+          "n": 10,
+          "N": 15,
+          "rate": 0.6666666666666666
+        },
+        "hit3": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "context_evidence": {
+          "n": 14,
+          "N": 15,
+          "rate": 0.9333333333333333
+        },
+        "context_metric": "source/page/exact alternative evidence in selected chunk; semantic review separate",
+        "elapsed_ms_total": 69459.56869988004,
+        "elapsed_ms_median": 3721.4612999814562
+      },
+      "usage": {
+        "model_requests": 36,
+        "embedding_requests": 4,
+        "embedding_cache_hits": 32,
+        "known_service_cost_usd": 0.01920333,
+        "cost_records_unknown": 0,
+        "failed_cases_cost_not_assumed_zero": 0,
+        "total_cost_usd": 0.01920333,
+        "prompt_tokens": 40267,
+        "completion_tokens": 2511,
+        "note": "all requests in run, including original-query evaluation; unknown costs are not zero"
+      },
+      "median_agent_ms": 3721.4612999814562
+    },
+    "H2": {
+      "run": "results/runs/20261117_032213_775223_H2_dev_agent",
+      "config_id": "H2",
+      "split": "dev",
+      "agent": {
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 10,
+          "1": 1,
+          "2": 4,
+          "N": 15,
+          "mean": 0.6
+        },
+        "citation_validity": {
+          "n": 6,
+          "N": 7
+        },
+        "answer_citation_coverage": {
+          "n": 5,
+          "N": 5
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 10,
+          "N": 15
+        },
+        "completion": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "context_grades": {
+          "0": 0,
+          "1": 0,
+          "2": 15,
+          "N": 15
+        },
+        "search_call_distribution": {
+          "1": 15,
+          "4": 2
+        }
+      },
+      "retrieval_context": {
+        "cases": 17,
+        "answerable": 15,
+        "errors": 0,
+        "completion": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "hit1": {
+          "n": 10,
+          "N": 15,
+          "rate": 0.6666666666666666
+        },
+        "hit3": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "context_evidence": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "context_metric": "source/page/exact alternative evidence in selected chunk; semantic review separate",
+        "elapsed_ms_total": 70515.94669994665,
+        "elapsed_ms_median": 3444.7862999804784
+      },
+      "usage": {
+        "model_requests": 40,
+        "embedding_requests": 5,
+        "embedding_cache_hits": 35,
+        "known_service_cost_usd": 0.01982154,
+        "cost_records_unknown": 0,
+        "failed_cases_cost_not_assumed_zero": 0,
+        "total_cost_usd": 0.01982154,
+        "prompt_tokens": 48436,
+        "completion_tokens": 2487,
+        "note": "all requests in run, including original-query evaluation; unknown costs are not zero"
+      },
+      "median_agent_ms": 3444.7862999804784
+    }
+  },
+  "test": {
+    "D0": {
+      "run": "results/runs/20261117_032837_128374_D0_test_agent",
+      "config_id": "D0",
+      "split": "test",
+      "agent": {
+        "cases": 7,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 7,
+          "N": 7
+        },
+        "grounded_answer": {
+          "0": 3,
+          "1": 0,
+          "2": 2,
+          "N": 5,
+          "mean": 0.8
+        },
+        "citation_validity": {
+          "n": 2,
+          "N": 2
+        },
+        "answer_citation_coverage": {
+          "n": 2,
+          "N": 2
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 3,
+          "N": 5
+        },
+        "completion": {
+          "n": 7,
+          "N": 7,
+          "rate": 1.0
+        },
+        "context_grades": {
+          "0": 1,
+          "1": 0,
+          "2": 4,
+          "N": 5
+        },
+        "search_call_distribution": {
+          "2": 3,
+          "1": 4
+        }
+      },
+      "retrieval_context": {
+        "cases": 7,
+        "answerable": 5,
+        "errors": 0,
+        "completion": {
+          "n": 7,
+          "N": 7,
+          "rate": 1.0
+        },
+        "hit1": {
+          "n": 4,
+          "N": 5,
+          "rate": 0.8
+        },
+        "hit3": {
+          "n": 5,
+          "N": 5,
+          "rate": 1.0
+        },
+        "context_evidence": {
+          "n": 4,
+          "N": 5,
+          "rate": 0.8
+        },
+        "context_metric": "source/page/exact alternative evidence in selected chunk; semantic review separate",
+        "elapsed_ms_total": 39337.51750001102,
+        "elapsed_ms_median": 5695.672400004696
+      },
+      "usage": {
+        "model_requests": 17,
+        "embedding_requests": 17,
+        "embedding_cache_hits": 0,
+        "known_service_cost_usd": 0.00717382,
+        "cost_records_unknown": 0,
+        "failed_cases_cost_not_assumed_zero": 0,
+        "total_cost_usd": 0.00717382,
+        "prompt_tokens": 13126,
+        "completion_tokens": 1200,
+        "note": "all requests in run, including original-query evaluation; unknown costs are not zero"
+      },
+      "median_agent_ms": 5695.672400004696
+    },
+    "H0": {
+      "run": "results/runs/20261117_032925_590428_H0_test_agent",
+      "config_id": "H0",
+      "split": "test",
+      "agent": {
+        "cases": 7,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 7,
+          "N": 7
+        },
+        "grounded_answer": {
+          "0": 3,
+          "1": 0,
+          "2": 2,
+          "N": 5,
+          "mean": 0.8
+        },
+        "citation_validity": {
+          "n": 2,
+          "N": 2
+        },
+        "answer_citation_coverage": {
+          "n": 2,
+          "N": 2
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 3,
+          "N": 5
+        },
+        "completion": {
+          "n": 7,
+          "N": 7,
+          "rate": 1.0
+        },
+        "context_grades": {
+          "0": 1,
+          "1": 0,
+          "2": 4,
+          "N": 5
+        },
+        "search_call_distribution": {
+          "2": 3,
+          "1": 4
+        }
+      },
+      "retrieval_context": {
+        "cases": 7,
+        "answerable": 5,
+        "errors": 0,
+        "completion": {
+          "n": 7,
+          "N": 7,
+          "rate": 1.0
+        },
+        "hit1": {
+          "n": 4,
+          "N": 5,
+          "rate": 0.8
+        },
+        "hit3": {
+          "n": 5,
+          "N": 5,
+          "rate": 1.0
+        },
+        "context_evidence": {
+          "n": 4,
+          "N": 5,
+          "rate": 0.8
+        },
+        "context_metric": "source/page/exact alternative evidence in selected chunk; semantic review separate",
+        "elapsed_ms_total": 29740.935799956787,
+        "elapsed_ms_median": 4344.664100004593
+      },
+      "usage": {
+        "model_requests": 17,
+        "embedding_requests": 2,
+        "embedding_cache_hits": 15,
+        "known_service_cost_usd": 0.00635868,
+        "cost_records_unknown": 0,
+        "failed_cases_cost_not_assumed_zero": 0,
+        "total_cost_usd": 0.00635868,
+        "prompt_tokens": 12804,
+        "completion_tokens": 965,
+        "note": "all requests in run, including original-query evaluation; unknown costs are not zero"
+      },
+      "median_agent_ms": 4344.664100004593
+    }
+  },
+  "agent_experiments_known_cost_usd": 0.09704945
+}

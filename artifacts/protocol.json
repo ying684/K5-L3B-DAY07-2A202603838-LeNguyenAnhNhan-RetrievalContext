@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-11-17T02:50:52.823128+07:00",
+  "benchmark_sha256": {
+    "dev": "d76f1f2dc5fa108169c5267dbc993e9f1bbb4a7458771f2c953c52fe861504ed",
+    "test": "b9d9c2378357c776ff3c45afad2622c417e8c73d3d7ae97a5cd1dcf84c75a8a1"
+  },
+  "benchmark_counts": {
+    "dev": {
+      "answerable": 15,
+      "unanswerable": 2
+    },
+    "test": {
+      "answerable": 5,
+      "unanswerable": 2
+    }
+  },
+  "vector_fingerprint": "6d6eef056fc56a7aab934927b0758e0a410c0e7b2f4b137d63c6499db1bde71f",
+  "pdf_sha256": "f40e8c07dbdba41b1b2e2fbec9e5c7432752fcc288aa706fa33358a84d23b543",
+  "embedding_model": "baai/bge-m3",
+  "embedding_dimensions": 1024,
+  "chunk_strategy": "B",
+  "chunk_count": 97,
+  "methods": [
+    "dense cosine on original Day 6 pgvector B",
+    "TF-IDF on same B chunks",
+    "RRF dense + TF-IDF"
+  ],
+  "initial_configs": {
+    "dense.json": "e95ac895f642ac53d78ffc1bfa7a243fd4c662f62cade1f21817e22c4e85b907",
+    "hybrid.json": "50f544973d94a53abc23c5cc101742036b76650477338283c14b2c24f81d8ddf",
+    "lexical.json": "6b1d7cfe02cd2962bb321688d60e3337c9f4368335737b13d17d76d4ca006d00"
+  },
+  "improvement_hypotheses": {
+    "H1": "return_k 6 and 4800 chars to reduce missing conditions/context eviction",
+    "H2": "candidate_k 20 per branch and at most 4 searches to seek additional evidence"
+  },
+  "config_change_policy": "Only dev may inform new versioned configs. Record hypothesis and results for at least two improvements.",
+  "hit_definition": "exact source_id + physical page + entire alternative evidence quote within a chunk",
+  "ranking_cutoffs": [
+    1,
+    3
+  ],
+  "context_metric": "enough alternative evidence in final model context; semantic review also recorded",
+  "unanswerable_retrieval_denominator": false,
+  "runtime_gold_policy": "only question and explicit filters; expected_answer/gold/answerable/absence_reason stay in evaluator",
+  "filters": "none by default; only explicit input chapter/language if configured equally across methods",
+  "query_policy": "original question ranking reported separately from model-generated query/step rankings",
+  "selection_eligibility": "all dev cases complete without system error and all required source reviews supplied",
+  "selection_order": [
+    "grounded_answer_mean_desc",
+    "correct_abstention_rate_desc",
+    "context_evidence_rate_desc",
+    "original_query_evidence_hit3_desc",
+    "service_cost_asc_if_all_eligible_configs_known",
+    "median_agent_ms_asc",
+    "config_id_asc"
+  ],
+  "unknown_cost_policy": "do not impute zero; omit cost tie-break if any eligible config has unknown cost",
+  "baseline_id": "D0",
+  "test_gate": "freeze runtime/config/prompt/index/benchmark after dev before any test run",
+  "test_review": "review every test case for baseline and selected config; context grade on all 5 answerable cases; review each citation",
+  "base_system_errors": "report separately from answer quality, retain every failed case and completion denominator",
+  "authorship_limitation": "Questions and implementation authored with the same Codex assistant. Test not executed or used to tune before selection; not a blind authorship study.",
+  "manual_review_policy": "Read source; record reviewer type. Never turn valid IDs or AI suggestions into alleged human audit."
+}

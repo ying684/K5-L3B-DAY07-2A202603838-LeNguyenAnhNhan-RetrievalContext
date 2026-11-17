@@ -1,0 +1,5 @@
+{
+  "full_trace_local": "results/bonus/runs/20261117_054917_226794_B1_dev",
+  "policy": "Full source text remains in ignored local results. Export keeps exact text SHA-256/length, page IDs, rank/score, image hashes, queries, tool calls, output, usage and errors.",
+  "reconstruction": "Obtain the book legally, verify source hash, rebuild the pinned index. Search text is the page slice source_text_start_char:source_text_end_char (legacy: first2400chars); read_pages text is complete. Apply context_updates before the indicated modelstep; compacted previews become metadata while opened pages remain. Verify exported text SHA-256."
+}

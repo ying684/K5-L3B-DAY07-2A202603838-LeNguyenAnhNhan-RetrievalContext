@@ -1,0 +1,143 @@
+{
+  "checked_at": "2026-11-17T08:26:18.066883+07:00",
+  "status": "passed",
+  "scope": "Offline packaging/evidence checks, no API or semantic rescoring",
+  "tests_passed": 65,
+  "dependencies": {
+    "psycopg": "3.3.8",
+    "python-dotenv": "1.2.4",
+    "pypdf": "6.21.4",
+    "typing_extensions": "4.16.0",
+    "tzdata": "2026.6",
+    "PyMuPDF": "1.26.7",
+    "Pillow": "12.0.0"
+  },
+  "basic_runs": [
+    {
+      "config": "D0",
+      "split": "dev",
+      "N": 17
+    },
+    {
+      "config": "L0",
+      "split": "dev",
+      "N": 17
+    },
+    {
+      "config": "H0",
+      "split": "dev",
+      "N": 17
+    },
+    {
+      "config": "H1",
+      "split": "dev",
+      "N": 17
+    },
+    {
+      "config": "H2",
+      "split": "dev",
+      "N": 17
+    },
+    {
+      "config": "D0",
+      "split": "test",
+      "N": 7
+    },
+    {
+      "config": "H0",
+      "split": "test",
+      "N": 7
+    }
+  ],
+  "bonus_runs": [
+    {
+      "config": "B1",
+      "split": "dev",
+      "N": 18,
+      "passed": 16
+    },
+    {
+      "config": "B0",
+      "split": "dev",
+      "N": 18,
+      "passed": 12
+    },
+    {
+      "config": "B0",
+      "split": "dev",
+      "N": 18,
+      "passed": 14
+    },
+    {
+      "config": "B1",
+      "split": "test",
+      "N": 30,
+      "passed": 21
+    }
+  ],
+  "bonus_test": "21/30; not qualified",
+  "frozen_runtime_zip_sha256": "71f52a174fcc81560be190f6f006a9cdd7d7b7107d45d5003afc53ffe006f454",
+  "measured_basic_fingerprint": "96eab067048b170cab01c27047bf101d9b562320ba5fc7e0384c57a949e9c9d0",
+  "measured_bonus_fingerprint": "afecd53cbb1af37ec2a2cc75f7cb83f237d7453456a54a09ef47532bfec65294",
+  "current_basic_packaging_fingerprint": "0842b8dca1b2178e89150b92270e330983f1fef81282e6212537efbf9611d05b",
+  "current_bonus_packaging_fingerprint": "6d184166996be2e479c1238b711aac3535a727d12126779cf8aab4395773a52c",
+  "packaging_changed": true,
+  "model_rerun": false,
+  "historical_selection_labels_unchanged": true,
+  "index": {
+    "pages": 400,
+    "image_hash_failures": [],
+    "continuous_400": true
+  },
+  "benchmark": {
+    "dev": {
+      "N": 18,
+      "answerable": 15,
+      "unanswerable": 3,
+      "groups": {
+        "table": 3,
+        "diagram": 3,
+        "chart": 3,
+        "multi_hop": 3,
+        "text": 3
+      }
+    },
+    "test": {
+      "N": 30,
+      "answerable": 24,
+      "unanswerable": 6,
+      "groups": {
+        "table": 6,
+        "diagram": 5,
+        "chart": 5,
+        "multi_hop": 4,
+        "text": 4
+      }
+    }
+  },
+  "ignore_checks": {
+    ".env": true,
+    "data/day6/raw/book_ML_color.pdf": true,
+    "data/bonus/index/pages.jsonl": true,
+    "results/runs/example/traces.jsonl": true,
+    ".archive/example.zip": true,
+    "artifacts/new_private.json": true,
+    "artifacts/bonus/new_probe.json": true,
+    "artifacts/bonus/runs/new_test/results.json": true,
+    "data/unapproved.json": true,
+    "specs/example/plan.md": true
+  },
+  "public_files_scanned": 134,
+  "potential_secret_files": [],
+  "broken_local_links": [],
+  "git_diff_check_ok": true,
+  "single_report": "report\\individual\\2A202603838_LeNguyenAnhNhan.md",
+  "report_bytes": 7403,
+  "remaining": [
+    "Learner source review",
+    "Grader repository/data access",
+    "Push and submit link",
+    "Bonus threshold not met"
+  ],
+  "errors": []
+}

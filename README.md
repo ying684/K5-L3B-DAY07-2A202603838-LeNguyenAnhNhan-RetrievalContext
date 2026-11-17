@@ -2,6 +2,8 @@
 
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
+> **Bài làm cá nhân:** [báo cáo ngắn](report/individual/2A202603838_LeNguyenAnhNhan.md) · [cách chạy](docs/RUNBOOK.md). Cơ bản đã đo đủ; bonus **21/30 (70%)**, chưa đạt +15. Đã dừng thử API; chưa push hoặc xác minh quyền người chấm.
+
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
 
 > **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.

@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-11-17T02:45:19.874672+07:00",
+  "python_version": "3.12.14",
+  "source_id": "mlcb-20180327",
+  "snapshot": "2018-03-27",
+  "chunk_strategy": "B",
+  "chunks": 97,
+  "pages": 32,
+  "physical_page_range": [
+    78,
+    109
+  ],
+  "model": "baai/bge-m3",
+  "dimensions": 1024,
+  "valid_vectors": 97,
+  "vector_norm_range": [
+    0.9999999438968176,
+    1.000000084105728
+  ],
+  "vector_fingerprint": "6d6eef056fc56a7aab934927b0758e0a410c0e7b2f4b137d63c6499db1bde71f",
+  "pdf_sha256": "f40e8c07dbdba41b1b2e2fbec9e5c7432752fcc288aa706fa33358a84d23b543",
+  "input_hashes": {
+    "manifest.json": "9784ce5324cd3b16c8cd812c8598ed4cc69dfbef5ad5d85a68cbb02825d1f68a",
+    "prepared/chunks_B.jsonl": "64d0344505844f5c958eb0de74615138430cd39218a147b9a10121169521b2d9",
+    "prepared/pages.jsonl": "53e9a15b6cd5db7f4b1fe6158e3150d2d4499dba28fc5695aaa79133bdea69a0",
+    "prepared/plan.json": "89ae7e6e2737e3b9ad7e3a8e5df59bff53ff70579221e58af0ab1794835aea57",
+    "provenance/dev_selection.json": "b38d7a939e4631472e381806589298839f28a41bf60e76d9012f0d50328c7c15",
+    "provenance/protocol.json": "eb98b676e55180b6543b62c7d888c1670ea4daf91807b4f73436b0953fd7b086"
+  },
+  "source_path_mapping": {
+    "starter/data/raw/book_ML_color.pdf": "data/day6/raw/book_ML_color.pdf"
+  },
+  "permission_record": {
+    "license_or_permission": "User attests permitted processing in conversation; no independent written permission supplied. Copyright terms at physical page 9.",
+    "permission_evidence": "User statement: Dữ liệu được sử dụng cho mục đích học tập và nghiên cứu không mang tính chất thương mại; external API processing and redistribution terms not independently verified"
+  },
+  "db_verified": true,
+  "query_embedding_verified": false,
+  "chat_model_verified": false,
+  "db_verification_path": "results/preflight/db_20261117_030142_857888.json"
+}

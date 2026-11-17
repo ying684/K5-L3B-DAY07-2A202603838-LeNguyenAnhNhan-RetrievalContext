@@ -1,0 +1,5 @@
+{
+  "id": "H2", "version": 1, "method": "hybrid", "improvement_of": "H1",
+  "candidate_k": 20, "return_k": 6, "budget_chars": 4800,
+  "max_searches": 4, "rrf_constant": 60
+}

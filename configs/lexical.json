@@ -1,0 +1,5 @@
+{
+  "id": "L0", "version": 1, "method": "lexical",
+  "candidate_k": 10, "return_k": 3, "budget_chars": 2400,
+  "max_searches": 2, "rrf_constant": 60
+}

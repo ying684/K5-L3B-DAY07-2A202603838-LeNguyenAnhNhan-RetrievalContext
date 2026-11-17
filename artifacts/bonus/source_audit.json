@@ -1,0 +1,64 @@
+{
+  "checked_at": "2026-11-17T07:41:38.675567+07:00",
+  "verification": {
+    "pages": 400,
+    "image_hash_failures": [],
+    "continuous_400": true
+  },
+  "benchmark_schema": {
+    "dev": {
+      "N": 18,
+      "answerable": 15,
+      "unanswerable": 3,
+      "groups": {
+        "table": 3,
+        "diagram": 3,
+        "chart": 3,
+        "multi_hop": 3,
+        "text": 3
+      }
+    },
+    "test": {
+      "N": 30,
+      "answerable": 24,
+      "unanswerable": 6,
+      "groups": {
+        "table": 6,
+        "diagram": 5,
+        "chart": 5,
+        "multi_hop": 4,
+        "text": 4
+      }
+    }
+  },
+  "source_sha256": "f40e8c07dbdba41b1b2e2fbec9e5c7432752fcc288aa706fa33358a84d23b543",
+  "native_text_characters": 918644,
+  "native_text_blocks": 8540,
+  "pages_with_embedded_image_objects": 37,
+  "pages_with_drawing_objects": 391,
+  "rendered_image_bytes": 124339672,
+  "literal_term_search_pages": {
+    "openrouter": [],
+    "gpt-4o": [],
+    "2025": [],
+    "2026": [],
+    "sha-256": [],
+    "checksum": [],
+    "gpu": [
+      116
+    ],
+    "cpu": []
+  },
+  "question_reference_counts": {
+    "dev": {
+      "question_count": 18,
+      "with_explicit_figure_table_reference": 11
+    },
+    "test": {
+      "question_count": 30,
+      "with_explicit_figure_table_reference": 20
+    }
+  },
+  "absence_interpretation": "Literal absence is supporting metadata, not proof by itself. Gold absence checks also inspect the relevant experiment sections and date/version; no failed top-k search is treated as proof of absence.",
+  "source_review": "Codex compared native extraction with original page renders/contact sheets. Not an independent human audit. Visual observations and corrections are in source_qa.md."
+}

@@ -1,0 +1,9 @@
+{
+  "read_only": true,
+  "postgres_version": "16.16 (Debian 16.16-1.pgdg12+1)",
+  "pgvector_version": "0.8.7",
+  "strategy": "B",
+  "matched_chunks": 97,
+  "matched_vectors": 97,
+  "max_vector_absolute_difference": 1.4140701276588175e-08
+}

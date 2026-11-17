@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-11-17T05:48:59.281242+07:00",
+  "benchmark": {
+    "dev": {
+      "N": 18,
+      "answerable": 15,
+      "unanswerable": 3,
+      "groups": {
+        "table": 3,
+        "diagram": 3,
+        "chart": 3,
+        "multi_hop": 3,
+        "text": 3
+      }
+    },
+    "test": {
+      "N": 30,
+      "answerable": 24,
+      "unanswerable": 6,
+      "groups": {
+        "table": 6,
+        "diagram": 5,
+        "chart": 5,
+        "multi_hop": 4,
+        "text": 4
+      }
+    }
+  },
+  "selection_order": [
+    "dev passed count",
+    "correct abstention",
+    "fewer errors",
+    "known cost",
+    "latency",
+    "config ID"
+  ],
+  "passing": "Answer correct and complete, every claim supported by correct original page/region; correct abstention for absent evidence. Errors/missing remain failures.",
+  "threshold": {
+    "numerator": 27,
+    "denominator": 30,
+    "percent": 90
+  },
+  "snapshot_at_protocol": {
+    "files": {
+      "src/bonus/__init__.py": "f25eea671349782777c114fe6cd459418a78ca480837fcd795aa70f7c1e7e575",
+      "src/bonus/experiment.py": "b2c211a47dce7f9a7551bdd349194bfd4d6a39c30de3d4fdfab6b0dde97995de",
+      "src/bonus/index.py": "c90b35ffb9c5eeb75a6fd6968ad7401569d52d40c8601c7c627d34cef51fc655",
+      "src/bonus/providers.py": "7c88bdd04ff2c7392a7685d62d6e061d02c592bc966f5dc6e32376e9d923c1c2",
+      "src/bonus/runtime.py": "1c488dfddae121f5ad9e2ef3ec4e1d20a63e17e23d4436f575b39c459d16db1c",
+      "src/bonus/transport.py": "438690f170c312913e0d30c3a3741845f69dc438e8ecb6d8b333d75b5ad1dc62",
+      "configs/bonus/text.json": "e6ef4507ec40bd93b3283d67a5b964454627ecbaff8546f77e8ebb7dd39c3c84",
+      "configs/bonus/vision.json": "7ea4a9b3963959a9b3dbeac11a04be46a1261446d519e091fb40a9823cc69573",
+      "src/config.py": "a33491f480eb406812d0e09753594507141503bf9cccb09ed3bdb9069b7587e6",
+      "src/http_client.py": "f151ef0c3797edcd8c3f74fbe3256a31b22fd0e7a7434f2f1c7eec8892a1688f",
+      "requirements.lock.txt": "e379effc63cbdda8f59e4ca71e177aae1ca00ca59882ac051e9255e9b6e2301f",
+      "requirements-bonus.txt": "39c92ef498d1da8b5e5bb827a1ac8e4648a9e0929a739817c1fff044da786f2e",
+      "data/bonus/benchmark/dev_gold.json": "bc276a4da635f6cfaf6a912e34912800cefdbb237bc7fa283e883a94ee7f8ac9",
+      "data/bonus/benchmark/dev_questions.json": "31ee4c7037e73bc6e335797d0ee5bc4ad19784861ce77c42a2b00f7cef8fbe19",
+      "data/bonus/benchmark/test_gold.json": "4c4cc6984363075d8e77cc78e5c51ffd46d370bfb810394ecf66ac1d612dae8d",
+      "data/bonus/benchmark/test_questions.json": "eeb8a066f440f20176576f81da10746918c4c43145b44dcbbf0baf5341ec6b1e",
+      "data/bonus/index/pages.jsonl": "e33c5722a385e10fea97be06e9df33a640f8b165433d9164e3636f065a066fab",
+      "data/bonus/index/manifest.json": "761fe40927532020ccaad83a41bfd7744f68f82a22b5045d49523d3c618e9ac0",
+      "artifacts/bonus/provider_selection.json": "a8be4772b8785ae969e781cd8f176a67ac758cfce44ea7b3c924b79a395135f8"
+    },
+    "fingerprint": "afecd53cbb1af37ec2a2cc75f7cb83f237d7453456a54a09ef47532bfec65294"
+  },
+  "authorship": "Same Codex assistant authors and source-reviews; not an independent human audit."
+}

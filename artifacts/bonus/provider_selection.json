@@ -1,0 +1,14 @@
+{
+  "selected_at": "2026-11-17T05:41:13.369939+07:00",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "endpoint": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "end_to_end_smoke_passed": true,
+  "smoke_trace_local": "results/bonus/preflight/vision_smoke_20261117_054004_036490.json",
+  "smoke_sha256": "b7599d0ca818814f44b3168bf99302e3e960808e1b20f262253d1d5f17818737",
+  "image_tool_preflight_local": "results/bonus/preflight/gemini_direct_20261117_053737_346590.json",
+  "source_review": "Figure20.2 title and SVDmatrix/rank1 descriptions compared with original page262.",
+  "selection_reason": "DirectOpenAIcreditexhausted;Gemini2.5notavailable,newrecommended3.8highdemand503;3.1FlashLitestable supportsimage+tool+roundtrip with current key. No benchmark/test result used.",
+  "fallback_inside_run": false,
+  "permission": "artifacts/bonus/api_request_preview_direct.json"
+}

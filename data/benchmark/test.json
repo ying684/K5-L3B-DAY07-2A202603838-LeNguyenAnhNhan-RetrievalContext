@@ -1,0 +1,108 @@
+[
+  {
+    "id": "t01",
+    "split": "test",
+    "question": "Trong bài toán machine translation được mô tả, đầu vào và đầu ra yêu cầu thuộc những dạng nào?",
+    "answerable": true,
+    "expected_answer": "Đầu vào là câu, đoạn hoặc bài văn trong một ngôn ngữ; chuyển sang một ngôn ngữ khác.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 78,
+        "evidence": "đầu vào là một câu, đoạn, hay bài văn trong một ngôn ngữ, và chương trình máy tính được yêu cầu chuyển đổi nó sang một ngôn ngữ khác."
+      }
+    ]
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "question": "Điểm phân biệt mô hình end-to-end với cách làm từng bước trong phần feature extraction là gì?",
+    "answerable": true,
+    "expected_answer": "Xây dựng bộ trích chọn đặc trưng và thuật toán chính cùng lúc, huấn luyện hai khối cùng nhau.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 86,
+        "evidence": "việc xây dựng bộ trích chọn đặc trưng và các thuật toán chính (classification, clustering, v.v.) có thể được thực hiện cùng lúc với nhau thay vì từng bước như trên. Các mô hình đó có tên gọi chung là end-to-end."
+      }
+    ]
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "question": "Trong ví dụ phân biệt ảnh rừng và sa mạc bằng màu, histogram cuối có bao nhiêu chiều và mỗi phần tử biểu diễn điều gì?",
+    "answerable": true,
+    "expected_answer": "Ba chiều, mỗi phần tử đếm số pixel tương ứng với một trong ba màu xanh lục, đỏ, vàng.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 89,
+        "evidence": "được một vector có kích thước bằng ba, mỗi phần tử thể hiện việc có bao nhiêu pixel trong bức ảnh có màu tương ứng. Vector cuối này còn được gọi làhistogram vectorcủa bức ảnh tương ứng với ba màu xanh, đỏ, vàng."
+      }
+    ]
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "question": "Trong rescaling về [0,1], giá trị min và max của từng đặc trưng được lấy trên tập dữ liệu nào?",
+    "answerable": true,
+    "expected_answer": "Trên toàn bộ các điểm dữ liệu của tập huấn luyện.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 94,
+        "evidence": "min(xi), max(xi) là giá trị nhỏ nhất và lớn nhất của đặc trưng thứi xét trên toàn bộ các điểm dữ liệu của tập huấn luyện."
+      }
+    ]
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "question": "Để một mô hình được giải bằng linear regression, nó có bắt buộc tuyến tính theo đầu vào x hay chỉ cần tuyến tính theo hệ số w?",
+    "answerable": true,
+    "expected_answer": "Chỉ cần tuyến tính theo w; không nhất thiết tuyến tính theo x.",
+    "gold": [
+      {
+        "source_id": "mlcb-20180327",
+        "page": 101,
+        "evidence": "Trên thực tế, linear regression có thể áp dụng cho các mô hình chỉ cần tuyến tính theow."
+      }
+    ]
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "question": "Theo corpus, top-1 accuracy của riêng ResNet-152 trên ImageNet là bao nhiêu phần trăm?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Có giới thiệu ImageNet và tên ResNet, nhưng không nêu ResNet-152 hay top-1 accuracy cụ thể trong 32 trang.",
+    "absence_check": {
+      "scope": "all 32 indexed physical pages 78-109",
+      "terms_checked": [
+        "ResNet-152",
+        "ResNet",
+        "accuracy",
+        "top-1"
+      ],
+      "method": "full normalized text search and source-section inspection"
+    }
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "question": "Theo tài liệu trong corpus, endpoint API và giá dịch vụ embedding baai/bge-m3 là gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Sách trong corpus không chứa hướng dẫn API hay bảng giá baai/bge-m3; cấu hình lab nằm ngoài corpus và không được làm evidence.",
+    "absence_check": {
+      "scope": "all 32 indexed physical pages 78-109",
+      "terms_checked": [
+        "baai",
+        "bge-m3",
+        "OpenRouter",
+        "embedding"
+      ],
+      "method": "full normalized text search and source-section inspection"
+    }
+  }
+]

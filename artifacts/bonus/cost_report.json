@@ -1,0 +1,75 @@
+{
+  "pricing_checked_date": "2026-11-17",
+  "pricing_source": "https://aistudio.google.com/docs/pricing",
+  "gemini_standard_usd_per_million_tokens": {
+    "gemini-3.1-flash-lite": {
+      "input": 0.25,
+      "cache": 0.025,
+      "output": 1.5
+    },
+    "gemini-3.5-flash-lite": {
+      "input": 0.3,
+      "cache": 0.03,
+      "output": 2.5
+    }
+  },
+  "method": "Recorded prompt/completion usage; paid standard estimate only. No account billing access, tier, taxes or discounts assumed. Missing usage and preflight/probes excluded; not billed cost. Provider-reported OpenRouter cost also is not an invoice.",
+  "runs": [
+    {
+      "run": "results/bonus/runs/20261117_054917_226794_B1_dev",
+      "model": "gemini-3.1-flash-lite",
+      "requests": 65,
+      "prompt_tokens_recorded": 207192,
+      "completion_tokens_recorded": 3360,
+      "cached_tokens_recorded": 6069,
+      "requests_without_usage": 0,
+      "provider_reported_cost_usd_known": 0,
+      "requests_without_provider_cost": 65,
+      "total_billed_cost_usd": null,
+      "paid_standard_estimate_usd_recorded_usage_only": 0.05547248,
+      "estimate_complete_for_all_attempts": true
+    },
+    {
+      "run": "results/bonus/runs/20261117_055718_749086_B0_dev",
+      "model": "gemini-3.1-flash-lite",
+      "requests": 70,
+      "prompt_tokens_recorded": 211212,
+      "completion_tokens_recorded": 3269,
+      "cached_tokens_recorded": 34150,
+      "requests_without_usage": 3,
+      "provider_reported_cost_usd_known": 0,
+      "requests_without_provider_cost": 70,
+      "total_billed_cost_usd": null,
+      "paid_standard_estimate_usd_recorded_usage_only": 0.05002275,
+      "estimate_complete_for_all_attempts": false
+    },
+    {
+      "run": "results/bonus/runs/20261117_060558_337864_B0_dev",
+      "model": "gemini-3.1-flash-lite",
+      "requests": 67,
+      "prompt_tokens_recorded": 169913,
+      "completion_tokens_recorded": 3383,
+      "cached_tokens_recorded": 4017,
+      "requests_without_usage": 2,
+      "provider_reported_cost_usd_known": 0,
+      "requests_without_provider_cost": 67,
+      "total_billed_cost_usd": null,
+      "paid_standard_estimate_usd_recorded_usage_only": 0.04664893,
+      "estimate_complete_for_all_attempts": false
+    },
+    {
+      "run": "results/bonus/runs/20261117_061536_933635_B1_test",
+      "model": "gemini-3.1-flash-lite",
+      "requests": 108,
+      "prompt_tokens_recorded": 378833,
+      "completion_tokens_recorded": 6387,
+      "cached_tokens_recorded": 54595,
+      "requests_without_usage": 2,
+      "provider_reported_cost_usd_known": 0,
+      "requests_without_provider_cost": 108,
+      "total_billed_cost_usd": null,
+      "paid_standard_estimate_usd_recorded_usage_only": 0.09200487,
+      "estimate_complete_for_all_attempts": false
+    }
+  ]
+}

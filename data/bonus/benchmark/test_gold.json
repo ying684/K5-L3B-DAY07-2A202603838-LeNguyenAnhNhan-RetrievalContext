@@ -1,0 +1,434 @@
+[
+  {
+    "id": "bt01",
+    "group": "table",
+    "answerable": true,
+    "expected_answer": "(A+Aᵀ)x và (A+Aᵀ)X, không giả sử A đối xứng.",
+    "evidence": [
+      {
+        "page": 47,
+        "region": "Bảng2.1, hàng xᵀAx và trace(XᵀAX)",
+        "source_observation": "hai ô gradient (A+Aᵀ)x, (A+Aᵀ)X",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt02",
+    "group": "table",
+    "answerable": true,
+    "expected_answer": "d4=saigon hutiu banhbo pho, lớpN; hanoi xuất hiện2 lần ởd5.",
+    "evidence": [
+      {
+        "page": 142,
+        "region": "Bảng11.1, hàngd4 vàd5",
+        "source_observation": "d4 bốn từ/lớpN; d5 hanoi hanoi buncha hutiu",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt03",
+    "group": "table",
+    "answerable": true,
+    "expected_answer": "Cả1.75 và4giờ đều có một Pass0 và một Pass1; không duy nhất.",
+    "evidence": [
+      {
+        "page": 177,
+        "region": "Bảng14.1, mọi cặp Hours/Pass có1.75 hoặc4",
+        "source_observation": "1.75:0/1;4:0/1",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt04",
+    "group": "table",
+    "answerable": true,
+    "expected_answer": "inequality constraint/bất đẳng thức ràng buộc; equality constraint/đẳng thức ràng buộc.",
+    "evidence": [
+      {
+        "page": 315,
+        "region": "Bảng24.1, hai hàng ràng buộc",
+        "source_observation": "inequality vs equality constraint",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt05",
+    "group": "table",
+    "answerable": true,
+    "expected_answer": "Softmax↔multi-class SVM: nhiều lớp, biên siêu phẳng; MLP↔Kernel SVM: biên phân lớp không tuyến tính.",
+    "evidence": [
+      {
+        "page": 367,
+        "region": "Bảng28.1, hai hàng cuối",
+        "source_observation": "multi-class/nhiều lớp siêu phẳng;Kernel/biên nonlinear",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt06",
+    "group": "table",
+    "answerable": true,
+    "expected_answer": "168cm→60kg,170cm→72kg, chênh12kg. Bảng khác mảngcode62 tại170; lấy đúng bảng.",
+    "evidence": [
+      {
+        "page": 99,
+        "region": "Bảng7.1, hai hàng đầu của cặp cột phải",
+        "source_observation": "60 và72 kg;72−60=12",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt07",
+    "group": "diagram",
+    "answerable": true,
+    "expected_answer": "Y M×N; Xᵀ M×K=item features; W K×N=user features; Y≈XᵀW.",
+    "evidence": [
+      {
+        "page": 249,
+        "region": "Hình19.1, nhãn kích thước và nhãn bên dưới ba khối",
+        "source_observation": "M×N ≈ (M×K)(K×N)",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt08",
+    "group": "diagram",
+    "answerable": true,
+    "expected_answer": "Trước: tính eigenvalues/eigenvectors của covariance matrix(bước4); sau: project data to selected eigenvectors(bước6).",
+    "evidence": [
+      {
+        "page": 272,
+        "region": "Hình21.4, ô4,5,6",
+        "source_observation": "4 compute eigenvalues/eigenvectors;5 pick K;6 project",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt09",
+    "group": "diagram",
+    "answerable": true,
+    "expected_answer": "x2:0<ξ2<1; x1 vàx3 ở sai phía đường phân chia,ξ1,ξ3>1.",
+    "evidence": [
+      {
+        "page": 353,
+        "region": "Hình27.2 và chú giải, các điểm x1,x2,x3",
+        "source_observation": "x2 correct side inside margin; x1/x3 wrong side",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt10",
+    "group": "diagram",
+    "answerable": true,
+    "expected_answer": "z=x²+y²; giao mặt phẳng phân chia với paraboloid chiếu về2D là ellipse.",
+    "evidence": [
+      {
+        "page": 368,
+        "region": "Hình28.1, panela,b,c và chú giải",
+        "source_observation": "z=x²+y²;ellipse ởc",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt11",
+    "group": "diagram",
+    "answerable": true,
+    "expected_answer": "cat285.3,frog−154.5,dog248.8; chọncat;285.3−248.8=36.5.",
+    "evidence": [
+      {
+        "page": 380,
+        "region": "Hình29.3, vector score và nhãncat/frog/dog",
+        "source_observation": "285.3,−154.5,248.8;cat thắng36.5",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt12",
+    "group": "chart",
+    "answerable": true,
+    "expected_answer": "Trái:(0.333,0.333,0.333);phải:(0.486,0.486,0.027), theo số làm tròn in trên cột.",
+    "evidence": [
+      {
+        "page": 195,
+        "region": "Hình15.3, nhóm cột trái/phải, hàng đỏa",
+        "source_observation": ".333/.333/.333 và .486/.486/.027; tổng có sai số làm tròn",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt13",
+    "group": "chart",
+    "answerable": true,
+    "expected_answer": "Trục ngang Epochs, trục dọc Training error rate. Đường liền ReLU đạt 0.25 khoảng epoch 6–7; nét đứt tanh khoảng epoch 35–37. Chấp nhận sai số đọc hình khoảng 1–2 epoch.",
+    "evidence": [
+      {
+        "page": 211,
+        "region": "Hình 16.6b, nhãn hai trục, hai điểm cuối và đoạn mô tả ReLU nhanh hơn tanh",
+        "source_observation": "Training error rate, không phải cost; đường liền dừng khoảng epoch6, nét đứt gần36; không có đường liền tại epoch20",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt14",
+    "group": "chart",
+    "answerable": true,
+    "expected_answer": "X=number of iterations,Y=loss function;gần9 xuống khoảng4.5–5;xu hướnggiảm nhưng códao động nên không đơn điệu.",
+    "evidence": [
+      {
+        "page": 388,
+        "region": "Hình29.6, trục và đườngloss",
+        "source_observation": "y≈9 đầu,≈4.5–5cuối; daođộng",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt15",
+    "group": "chart",
+    "answerable": true,
+    "expected_answer": "Màuđỏ;μ=0.5,σ²=0.5;đỉnh gầnx=0.5.",
+    "evidence": [
+      {
+        "page": 61,
+        "region": "Hình3.3a, đườngđỏ và nhãn",
+        "source_observation": "red μ=.5 σ²=.5;peak.5",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt16",
+    "group": "chart",
+    "answerable": true,
+    "expected_answer": "Panelc;haiđỉnh xa và hẹp,ítchồnglấp. a:xa nhưngvariance lớn; b:variance nhỏ nhưngmeansgần.",
+    "evidence": [
+      {
+        "page": 282,
+        "region": "Hình22.2a,b,c, hình chuông và nhãn",
+        "source_observation": "c largemeandistance/smallvariances",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt17",
+    "group": "multi_hop",
+    "answerable": true,
+    "expected_answer": "A†;numpy.linalg.pinv(A).",
+    "evidence": [
+      {
+        "page": 11,
+        "region": "Bảng0.1, hàngA†",
+        "source_observation": "giả nghịch đảo",
+        "source_id": "mlcb-20180327-full"
+      },
+      {
+        "page": 99,
+        "region": "Mục7.3.3, câu trước code",
+        "source_observation": "numpy.linalg.pinv(A)",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt18",
+    "group": "multi_hop",
+    "answerable": true,
+    "expected_answer": "numpy cho mảng;scikit-learn,neighbors.KNeighborsClassifier(n_neighbors=1,p=2).",
+    "evidence": [
+      {
+        "page": 6,
+        "region": "Mục0.4, hai thư viện",
+        "source_observation": "numpy xửlýmảng nhiều chiều",
+        "source_id": "mlcb-20180327-full"
+      },
+      {
+        "page": 118,
+        "region": "Kết quảvới1NN, dòngmodel",
+        "source_observation": "KNeighborsClassifier;n_neighbors1;p2",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt19",
+    "group": "multi_hop",
+    "answerable": true,
+    "expected_answer": "SVD:ảnhxám960×1440;Yale:15người,11trạngthái/người (165ảnh).",
+    "evidence": [
+      {
+        "page": 264,
+        "region": "Hình20.3/chúgiải vàmục20.3",
+        "source_observation": "ảnhxám960×1440",
+        "source_id": "mlcb-20180327-full"
+      },
+      {
+        "page": 276,
+        "region": "Hình21.5/codeids,states,N",
+        "source_observation": "ids1..15;11states;N165",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt20",
+    "group": "multi_hop",
+    "answerable": true,
+    "expected_answer": "RBF;vùngphânlớpđốixứnghợpdữliệu;exp(−γ||x−z||²),γ>0;kernel=rbf,paramgamma.",
+    "evidence": [
+      {
+        "page": 373,
+        "region": "Hình28.2c/chúgiải/bulletRBF",
+        "source_observation": "RBF đối xứng,đánhgiáhợplýhơn",
+        "source_id": "mlcb-20180327-full"
+      },
+      {
+        "page": 372,
+        "region": "Bảng28.2,hàngrbf",
+        "source_observation": "exp(−gamma norm²);gamma>0",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt21",
+    "group": "text",
+    "answerable": true,
+    "expected_answer": "trace(WᵀSBW)/trace(WᵀSWW);between-classlớn,within-classnhỏ.",
+    "evidence": [
+      {
+        "page": 287,
+        "region": "Mục22.3.2,côngthức22.22 vàcâudẫn",
+        "source_observation": "maximize between/within trace ratio",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt22",
+    "group": "text",
+    "answerable": true,
+    "expected_answer": "Ba màu chủ đạo hồng,đen,màuda;pixelvectorRGB3chiều,mỗikênhlàsốtựnhiên≤255.",
+    "evidence": [
+      {
+        "page": 133,
+        "region": "Mục10.5,bađoạndướiảnh",
+        "source_observation": "3màuhồngđenmàuda;RGB0..255",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt23",
+    "group": "text",
+    "answerable": true,
+    "expected_answer": "Mỗiđiểmlàmộtcột,meanmỗihàngbằng0(vectortrungbình0);dùngtruncatedSVDcủama trậnđãcenter.",
+    "evidence": [
+      {
+        "page": 273,
+        "region": "Mục21.3.3,đoạnkết",
+        "source_observation": "columns as samples;eachrowmean0",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt24",
+    "group": "text",
+    "answerable": true,
+    "expected_answer": "IDdữliệubắtđầutừ1,cònindexPythonbắtđầutừ0;nênđổigữahaiquyước.",
+    "evidence": [
+      {
+        "page": 235,
+        "region": "Hàmget_items_rated_by_user vàhai comment",
+        "source_observation": "userid+1 vàitemid−1do1-basedvs0-based",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bt25",
+    "group": "unanswerable",
+    "answerable": false,
+    "expected_answer": "Nêu rõ sách không cung cấp đủ thông tin; không đoán.",
+    "evidence": [],
+    "absence_check": "Bản sách2018;kiểm tra phầnthưviện/ngàytháng vàtìm2026/release;khôngcóthôngtinpháthành2026."
+  },
+  {
+    "id": "bt26",
+    "group": "unanswerable",
+    "answerable": false,
+    "expected_answer": "Nêu rõ sách không cung cấp đủ thông tin; không đoán.",
+    "evidence": [],
+    "absence_check": "Kiểm tramục9.3,trang117–120;codecófitvàaccuracy,khôngcómeasurementelapsed/CPUcụthể.TìmCPU/timingtoànsáchkhônggắnvớirunnày."
+  },
+  {
+    "id": "bt27",
+    "group": "unanswerable",
+    "answerable": false,
+    "expected_answer": "Nêu rõ sách không cung cấp đủ thông tin; không đoán.",
+    "evidence": [],
+    "absence_check": "Xemtrang133/chúgiảiHình10.7vàlinkcredit;chỉtênguồnảnh,khôngcócamera/lensEXIFtrongsách.Khôngtruynguồnngoàisách."
+  },
+  {
+    "id": "bt28",
+    "group": "unanswerable",
+    "answerable": false,
+    "expected_answer": "Nêu rõ sách không cung cấp đủ thông tin; không đoán.",
+    "evidence": [],
+    "absence_check": "Đọctrang186–188;chỉdataset/chỉsố/ngẫunhiên2000điểm,khôngbảngánhdanhtínhngườiviết.Tìmwriter/danhtínhkhôngcómapping."
+  },
+  {
+    "id": "bt29",
+    "group": "unanswerable",
+    "answerable": false,
+    "expected_answer": "Nêu rõ sách không cung cấp đủ thông tin; không đoán.",
+    "evidence": [],
+    "absence_check": "Kiểmtramục21.6,trang275–278vàtìmSHA/hash/checksumtoàn400trang;khôngcóSHA-256snapshotYale."
+  },
+  {
+    "id": "bt30",
+    "group": "unanswerable",
+    "answerable": false,
+    "expected_answer": "Nêu rõ sách không cung cấp đủ thông tin; không đoán.",
+    "evidence": [],
+    "absence_check": "Kiểmtracácchương26–29/tìmOpenRouter/USD/APIcosttoànsách;vídụcodePythonkhôngbáohóađơnOpenRouter."
+  }
+]

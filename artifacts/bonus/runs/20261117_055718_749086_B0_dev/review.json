@@ -1,0 +1,205 @@
+[
+  {
+    "id": "bd01",
+    "passed": false,
+    "answer_correct_complete": false,
+    "citation_support": false,
+    "rationale": "Network/timeout failure, no model answer. Kept in denominator.",
+    "source_pages_checked": [],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd02",
+    "passed": false,
+    "answer_correct_complete": false,
+    "citation_support": false,
+    "rationale": "Network/timeout failure, no model answer. Kept in denominator.",
+    "source_pages_checked": [],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd03",
+    "passed": false,
+    "answer_correct_complete": false,
+    "citation_support": false,
+    "rationale": "Network/timeout failure, no model answer. Kept in denominator.",
+    "source_pages_checked": [],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd04",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Training has3B and1N; priors3/4 and1/4. Figure11.1 and equation11.10 jointly support answer.",
+    "source_pages_checked": [
+      142,
+      143
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd05",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Text-only caption and p207 prose explicitly describe two hidden and one output perceptron; both cited pages support count.",
+    "source_pages_checked": [
+      206,
+      207
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd06",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Figure20.1 caption and colored matrices support darker red=higher, white=0; top m<n and bottom m>n.",
+    "source_pages_checked": [
+      260
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd07",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Figure3.4a shows Beta(.5,.5) concentrated near0/1 and Beta(10,10) near.5. Correct panel/citation.",
+    "source_pages_checked": [
+      63
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd08",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Figure12.7 panel labels eta1/eta.1 and51/101 iterations match answer.",
+    "source_pages_checked": [
+      160
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd09",
+    "passed": false,
+    "answer_correct_complete": false,
+    "citation_support": false,
+    "rationale": "C=.1 is actually supported by the image; old gold locator0.00001 was wrong. However answer equates within-margin points with classification errors. These differ; every-claim support criterion fails.",
+    "source_pages_checked": [
+      366
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd10",
+    "passed": false,
+    "answer_correct_complete": false,
+    "citation_support": false,
+    "rationale": "System step-budget exhaustion:12calls, repeated page reads without image input. No final answer; not abstention.",
+    "source_pages_checked": [
+      174,
+      183,
+      185,
+      186
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd11",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "p136 around Figure10.10 supports differing good/bad initialization and minimum-loss restart; no global guarantee follows from this text.",
+    "source_pages_checked": [
+      135,
+      136
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd12",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Kcentroids plus pixel labels p135; U/Sigma/V dimensions and diagonal-only storage p264; .69 memory ratio p265. All requested/extra facts supported on cited pages.",
+    "source_pages_checked": [
+      135,
+      264,
+      265
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd13",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Section9.1.1 p112 explicitly states memorization and deferred computation, equivalent to9.2 training description. Citation supports full answer.",
+    "source_pages_checked": [
+      112,
+      113
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd14",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Equation21.23 and final paragraph: smallest natural K for cumulative first-K eigenvalue sum divided by total >=.99. Correct formula and locator.",
+    "source_pages_checked": [
+      273
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd15",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "First two paragraphs explicitly describe high/infinite dimensions and k(x,z)=Phi(x)^T Phi(z); answer and locator match.",
+    "source_pages_checked": [
+      370
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd16",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Correct absence response for GPT-4o2025 in2018 book; no fabricated benchmark. Pre-authored corpus absence check confirmed.",
+    "source_pages_checked": [
+      1,
+      2,
+      9
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd17",
+    "passed": false,
+    "answer_correct_complete": false,
+    "citation_support": false,
+    "rationale": "Guard error: finish answered lacked opened pages/citations. Not a valid source-grounded answer or explicit abstain.",
+    "source_pages_checked": [],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  },
+  {
+    "id": "bd18",
+    "passed": true,
+    "answer_correct_complete": true,
+    "citation_support": true,
+    "rationale": "Correct abstain for absent OpenRouter embedding/labDay7 in2018 book. Pre-authored corpus-wide absence check, no invented model/dimension.",
+    "source_pages_checked": [
+      1,
+      2,
+      9
+    ],
+    "reviewer": "Codex original source comparison; same author, not independent human audit"
+  }
+]

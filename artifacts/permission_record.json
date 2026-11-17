@@ -1,0 +1,48 @@
+{
+  "basic": {
+    "recorded_date": "2026-11-17",
+    "scope": "provided corpus for external model/embedding processing in this lab",
+    "user_statement": "Được phép gửi tới dịch vụ model/embedding cho lab",
+    "redistribution_permission": "not implied",
+    "api_key_status": "user updated the key; embedding and chat API smoke passed on 2026-11-17; key values never logged",
+    "specific_openrouter_approval": {
+      "user_statement": "Cho phép smoke và benchmark theo kế hoạch",
+      "destinations": [
+        "https://openrouter.ai/api/v1/embeddings",
+        "https://openrouter.ai/api/v1/chat/completions"
+      ],
+      "models": [
+        "baai/bge-m3",
+        "openai/gpt-4.1-mini"
+      ],
+      "payload_scope": "questions and necessary retrieved corpus excerpts; no gold or keys in body",
+      "preview": "artifacts/api_request_preview.json",
+      "date": "2026-11-17"
+    }
+  },
+  "bonus": {
+    "recorded_date": "2026-11-17",
+    "user_statement": "Cho phép smoke và benchmark bonus như mô tả",
+    "approval_context": "Explicit reply to the full-book text and image payload preview after automatic approval review rejection",
+    "destination": "https://openrouter.ai/api/v1/chat/completions",
+    "model": "openai/gpt-4.1-mini",
+    "payload_scope": "Questions, retrieved text and necessary selected page JPEGs from the existing 400-page Machine Learning cơ bản PDF; max 9 opened pages per question",
+    "purpose": "Real smoke, development comparison and frozen bonus benchmark test",
+    "preview": "artifacts/bonus/api_request_preview.json",
+    "no_gold_or_labels": true,
+    "redistribution_permission": "not implied; full PDF/renders/index remain ignored local files",
+    "secret_handling": ".env local; API key in Authorization header only, never printed",
+    "direct_provider_extension": {
+      "user_instruction": "tui nhap them key openai apikey, gemini ko chay dc cai nay thi chay api key khac",
+      "gemini_explicit_confirmation": "Cho phép Gemini xử lý corpus cho bonus",
+      "destination": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+      "same_payload_scope_and_limits": true,
+      "no_gold_or_labels": true,
+      "preview": "artifacts/bonus/api_request_preview_direct.json",
+      "selection": "artifacts/bonus/provider_selection.json",
+      "fallback_policy": "Choose provider by preflight/dev; keep fixed provider/model per run and frozen test. No silent per-case fallback."
+    }
+  },
+  "original_payload_previews": "Original paths referenced below are preserved inside artifacts/frozen_runtime.zip.",
+  "redistribution": "Permission for API processing does not permit redistribution of the book."
+}

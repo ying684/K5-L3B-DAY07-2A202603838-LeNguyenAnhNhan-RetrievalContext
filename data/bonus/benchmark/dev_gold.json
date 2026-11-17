@@ -1,0 +1,269 @@
+[
+  {
+    "id": "bd01",
+    "group": "table",
+    "answerable": true,
+    "expected_answer": "⊙; nhân từng phần tử của hai vector hoặc ma trận cùng kích thước.",
+    "evidence": [
+      {
+        "page": 11,
+        "region": "Bảng 0.1, hàng ⊙",
+        "source_observation": "Hadamard product, cùng kích thước",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd02",
+    "group": "table",
+    "answerable": true,
+    "expected_answer": "52 kg và 56 kg; chênh 4 kg.",
+    "evidence": [
+      {
+        "page": 99,
+        "region": "Bảng 7.1, cặp cột trái, hàng 155 và 160",
+        "source_observation": "155→52;160→56;56−52=4 kg",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd03",
+    "group": "table",
+    "answerable": true,
+    "expected_answer": "d→degree, γ→gamma, r→coef0.",
+    "evidence": [
+      {
+        "page": 372,
+        "region": "Bảng 28.2, hàng poly, cột Thiết lập hệ số",
+        "source_observation": "degree/gamma/coef0",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd04",
+    "group": "diagram",
+    "answerable": true,
+    "expected_answer": "B:3, N:1; prior B=3/4,N=1/4.",
+    "evidence": [
+      {
+        "page": 143,
+        "region": "Hình 11.1, hai khối training B/N bên trái",
+        "source_observation": "NB=3,NN=1; prior 3/4,1/4",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd05",
+    "group": "diagram",
+    "answerable": true,
+    "expected_answer": "Hai perceptron tầng ẩn và một tầng đầu ra; tổng ba.",
+    "evidence": [
+      {
+        "page": 206,
+        "region": "Hình 16.2b, các node cam và đỏ",
+        "source_observation": "2 hidden units,1 output; bias không phải perceptron",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd06",
+    "group": "diagram",
+    "answerable": true,
+    "expected_answer": "Đỏ đậm là singular value lớn hơn, ô trắng là 0; hình trên m<n, dưới m>n.",
+    "evidence": [
+      {
+        "page": 260,
+        "region": "Hình 20.1a,b và chú giải Σ",
+        "source_observation": "m<n; m>n; đậm→cao, trắng→0",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd07",
+    "group": "chart",
+    "answerable": true,
+    "expected_answer": "α=β=0.5: mật độ cao ở hai đầu 0 và 1; α=β=10: tập trung quanh 0.5, đối xứng.",
+    "evidence": [
+      {
+        "page": 63,
+        "region": "Hình 3.4a, đường (0.5,0.5) và (10,10)",
+        "source_observation": "Đường xanh lam hình chữ U; đường cyan đỉnh giữa",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd08",
+    "group": "chart",
+    "answerable": true,
+    "expected_answer": "Panel a η=1 cần51; panel b η=0.1 cần101 vòng.",
+    "evidence": [
+      {
+        "page": 160,
+        "region": "Hình 12.7a,b, nhãn η và tiêu đề iteration",
+        "source_observation": "a eta1/51;b eta.1/101",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd09",
+    "group": "chart",
+    "answerable": true,
+    "expected_answer": "Biên nhỏ dần và số điểm phân lớp lỗi giảm; C rất nhỏ cho biên rộng.",
+    "evidence": [
+      {
+        "page": 366,
+        "region": "Hình 27.5, bốn panel C=0.1,1,10,100",
+        "source_observation": "C lớn→biên nhỏ, ít lỗi",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd10",
+    "group": "multi_hop",
+    "answerable": true,
+    "expected_answer": "Perceptron dùng sgn/bậc thang; logistic dùng sigmoid cong chữ S.",
+    "evidence": [
+      {
+        "page": 174,
+        "region": "Hình 13.4a,b, node y",
+        "source_observation": "y=sgn(z)",
+        "source_id": "mlcb-20180327-full"
+      },
+      {
+        "page": 186,
+        "region": "Hình 14.6, node đầu ra bên phải Logistic Regression",
+        "source_observation": "hình sigmoid trong output node",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd11",
+    "group": "multi_hop",
+    "answerable": true,
+    "expected_answer": "Không bảo đảm; khởi tạo centroid khác nhau nhiều lần rồi chọn loss thấp nhất.",
+    "evidence": [
+      {
+        "page": 135,
+        "region": "Mục10.7.1, bullet phụ thuộc centroid",
+        "source_observation": "Không bảo đảm tối ưu toàn cục",
+        "source_id": "mlcb-20180327-full"
+      },
+      {
+        "page": 136,
+        "region": "Đoạn ngay dưới Hình10.10",
+        "source_observation": "chạy nhiều khởi tạo, chọn loss nhỏ nhất",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd12",
+    "group": "multi_hop",
+    "answerable": true,
+    "expected_answer": "K-means lưu K centroid và nhãn mỗi pixel; theo giả định 4 byte/số thực SVD và 1 byte/pixel gốc, tỷ lệ bộ nhớ = 4×100×(960+1440+1)/(960×1440) ≈ 69.47%. Không nhầm với mức thông tin mất đi dưới 3%.",
+    "evidence": [
+      {
+        "page": 135,
+        "region": "Đoạn dưới Hình 10.9",
+        "source_observation": "K centroid và label từng pixel",
+        "source_id": "mlcb-20180327-full"
+      },
+      {
+        "page": 264,
+        "region": "Mục 20.3, kích thước ảnh và công thức 20.23",
+        "source_observation": "m=960,n=1440,k=100; tỷ lệ bộ nhớ 4k(m+n+1)/(mn)",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd13",
+    "group": "text",
+    "answerable": true,
+    "expected_answer": "Không học tham số trong training; lưu dữ liệu/nhãn, tính toán dồn sang dự đoán.",
+    "evidence": [
+      {
+        "page": 113,
+        "region": "Mục9.2, hai đoạn đầu",
+        "source_observation": "training không cập nhật tham số, lưu dữ liệu",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd14",
+    "group": "text",
+    "answerable": true,
+    "expected_answer": "Chọn K nhỏ nhất sao cho tổng K trị riêng đầu chia tổng mọi trị riêng >=0.99.",
+    "evidence": [
+      {
+        "page": 273,
+        "region": "Mục21.4, công thức21.23 và câu cuối",
+        "source_observation": "rK≥0.99; K nhỏ nhất",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd15",
+    "group": "text",
+    "answerable": true,
+    "expected_answer": "Không gian mới có thể rất cao hoặc vô hạn chiều, tốn bộ nhớ/tính toán; kernel tính quan hệ/tích vô hướng giữa hai điểm ở không gian mới.",
+    "evidence": [
+      {
+        "page": 368,
+        "region": "Các đoạn dưới Hình28.1",
+        "source_observation": "cao/vô hạn chiều; dùng kernel quan hệ hai điểm",
+        "source_id": "mlcb-20180327-full"
+      }
+    ],
+    "grading": "All requested facts/units/calculations and supporting page/region citations required. Equivalent notation accepted."
+  },
+  {
+    "id": "bd16",
+    "group": "unanswerable",
+    "answerable": false,
+    "expected_answer": "Nêu rõ sách không cung cấp đủ thông tin; không đoán.",
+    "evidence": [],
+    "absence_check": "Kiểm tra ngày bản sách2018, tìm GPT-4o/2025 toàn400trang và phần model/benchmark; không có nghiên cứu năm2025."
+  },
+  {
+    "id": "bd17",
+    "group": "unanswerable",
+    "answerable": false,
+    "expected_answer": "Nêu rõ sách không cung cấp đủ thông tin; không đoán.",
+    "evidence": [],
+    "absence_check": "Kiểm tra mục14.5,trang186–188 và tìm GPU/seconds/toàn sách; có code/dataset nhưng không báo hardware và thời gian chính xác cho run này."
+  },
+  {
+    "id": "bd18",
+    "group": "unanswerable",
+    "answerable": false,
+    "expected_answer": "Nêu rõ sách không cung cấp đủ thông tin; không đoán.",
+    "evidence": [],
+    "absence_check": "Tìm OpenRouter/Day7/embedding toàn400trang; sách2018 không mô tả lab hiện tại; không lấy config repo làm nguồn."
+  }
+]

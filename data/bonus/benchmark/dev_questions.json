@@ -1,0 +1,74 @@
+[
+  {
+    "id": "bd01",
+    "question": "Trong Bảng 0.1, ký hiệu tích Hadamard là gì và điều kiện về kích thước hai toán hạng là gì?"
+  },
+  {
+    "id": "bd02",
+    "question": "Theo Bảng 7.1, hai người cao 155 cm và 160 cm nặng bao nhiêu kg, chênh nhau bao nhiêu kg?"
+  },
+  {
+    "id": "bd03",
+    "question": "Bảng 28.2 ánh xạ các hệ số d, γ, r của polynomial kernel sang tên tham số sklearn nào?"
+  },
+  {
+    "id": "bd04",
+    "question": "Ở phần TRAINING của Hình 11.1, số văn bản thuộc B và N là bao nhiêu; prior tương ứng là gì?"
+  },
+  {
+    "id": "bd05",
+    "question": "Theo sơ đồ Hình 16.2b, mạng biểu diễn XOR có bao nhiêu perceptron ở tầng ẩn và tầng đầu ra, không tính bias?"
+  },
+  {
+    "id": "bd06",
+    "question": "Trong Hình 20.1, màu đỏ đậm và ô trắng trên Σ biểu thị gì, và hai hình ứng với quan hệ m,n nào?"
+  },
+  {
+    "id": "bd07",
+    "question": "Trong Hình 3.4a, đường Beta có α=β=0.5 và đường α=β=10 khác nhau thế nào về vị trí tập trung mật độ?"
+  },
+  {
+    "id": "bd08",
+    "question": "Hình 12.7 cho biết hai learning rate nào và cần bao nhiêu vòng lặp tương ứng trong hai panel?"
+  },
+  {
+    "id": "bd09",
+    "question": "Dựa vào bốn panel Hình 27.5, khi C tăng từ rất nhỏ lên 100, biên và số điểm bị phân lớp lỗi thay đổi theo xu hướng nào?"
+  },
+  {
+    "id": "bd10",
+    "question": "Đối chiếu Hình 13.4 và Hình 14.6: perceptron và logistic regression dùng dạng kích hoạt nào ở node đầu ra?"
+  },
+  {
+    "id": "bd11",
+    "question": "Trong mục 10.7.1, K-means có bảo đảm tối ưu toàn cục không và sách đề xuất cách chạy lại nào để hạn chế nghiệm xấu?"
+  },
+  {
+    "id": "bd12",
+    "question": "So sánh cách lưu để nén ảnh ở Hình 10.9 và ví dụ SVD Hình 20.3: K-means lưu gì, còn SVD rank 100 giữ khoảng bao nhiêu phần trăm bộ nhớ gốc?"
+  },
+  {
+    "id": "bd13",
+    "question": "Theo mục 9.2, tại sao KNN được gọi là lazy learning và training của nó thực chất làm gì?"
+  },
+  {
+    "id": "bd14",
+    "question": "Theo mục 21.4, muốn giữ ít nhất 99% thông tin bằng PCA thì chọn K theo quy tắc nào?"
+  },
+  {
+    "id": "bd15",
+    "question": "Theo chương Kernel SVM, tại sao không trực tiếp tính Φ(x) và kernel thay việc đó bằng đại lượng nào?"
+  },
+  {
+    "id": "bd16",
+    "question": "Sách báo cáo điểm benchmark GPT-4o trên bộ câu hỏi machine learning tiếng Việt năm 2025 là bao nhiêu?"
+  },
+  {
+    "id": "bd17",
+    "question": "Ví dụ MNIST logistic regression của sách huấn luyện trên GPU model nào và mất chính xác bao nhiêu giây?"
+  },
+  {
+    "id": "bd18",
+    "question": "Trong sách, model embedding OpenRouter và số chiều vector mà tác giả dùng để chạy chính lab Day 7 này là gì?"
+  }
+]

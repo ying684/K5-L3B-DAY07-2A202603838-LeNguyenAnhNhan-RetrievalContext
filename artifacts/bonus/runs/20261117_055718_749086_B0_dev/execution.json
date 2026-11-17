@@ -1,0 +1,10 @@
+{
+  "completed_at": "2026-11-17T06:05:33.845622+07:00",
+  "N": 18,
+  "wall_seconds": 495.09587349998765,
+  "status_counts": {
+    "error": 5,
+    "answered": 11,
+    "abstain": 2
+  }
+}

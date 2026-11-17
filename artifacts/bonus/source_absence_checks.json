@@ -1,0 +1,64 @@
+{
+  "source_sha256": "f40e8c07dbdba41b1b2e2fbec9e5c7432752fcc288aa706fa33358a84d23b543",
+  "method": "Complete native-text term scan is supporting evidence only; also visually inspect original relevant sections and publication date. Do not infer absence from top-k retrieval failure.",
+  "term_pages": {
+    "cpu": [],
+    "camera": [
+      266
+    ],
+    "lens": [],
+    "exif": [],
+    "sha": [],
+    "sha-256": [],
+    "checksum": [],
+    "openrouter": [],
+    "2026": []
+  },
+  "photo_p133_embedded_metadata": [
+    {
+      "xref": 2731,
+      "exif_tag_names": [],
+      "camera_or_lens_fields_present": false
+    }
+  ],
+  "sections_reviewed": {
+    "bt25": [
+      1,
+      2,
+      6,
+      9
+    ],
+    "bt26": [
+      117,
+      118,
+      119,
+      120
+    ],
+    "bt27": [
+      133
+    ],
+    "bt28": [
+      186,
+      187,
+      188
+    ],
+    "bt29": [
+      275,
+      276,
+      277,
+      278
+    ],
+    "bt30": [
+      353,
+      366,
+      367,
+      368,
+      372,
+      373,
+      380,
+      388
+    ]
+  },
+  "reviewer": "Codex original source comparison, same author; not independent human audit",
+  "camera_term_context": "Only native-text camera match p266 is a generic front/top camera analogy for PCA, unrelated to photo10.7; no camera brand/model/lens metadata. Embedded p133 image EXIF is empty."
+}
